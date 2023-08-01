@@ -1,0 +1,104 @@
+.locations{
+    position: relative;
+    top: 2%;
+    padding-left: 100px;
+    padding-top: 20px;
+    width: 100%;
+    float: left;
+    font-family: arial;
+
+
+
+}
+.locations h1{
+    color: #3FABE1;
+    font-size: 50px;
+
+}
+
+
+.locations .col1{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+.cardone{
+               width: 200px;
+               height: 230px;
+               display: inline-block;
+               border-radius: 20px;
+               padding: 15px 25px;
+               box-sizing: border-box;
+               cursor: pointer;
+               margin: 20px 25px;
+               background-position: center;
+               background-size: cover;
+               transition: transform 0.5s;
+               box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+              
+               text-align: center;
+               font-size: 30px;
+            }
+
+            .card1{
+                background-image: url(main_loc_images/anuradapura.jpg);
+            }
+
+            .card2{
+                background-image: url(main_loc_images/colombo.jpg);
+            }
+
+            .card3{
+                background-image: url(main_loc_images/galle.jpg);
+            }
+
+            .card4{
+                background-image: url(main_loc_images/homagama.jpg);
+            }
+
+            .card5{
+                background-image: url(main_loc_images/kaluthara.jpg);
+            }
+
+            .card6{
+                background-image: url(main_loc_images/kurunagala.jpg);
+            }
+
+            .card7{
+                background-image: url(main_loc_images/panadura.jpeg);
+            }
+
+            .cardone:hover{
+                transform: translateY(-15px);
+            }
+
+            .card8{
+                background-image: url(main_loc_images/peradeniya.jpg);
+            }
+
+            .card9{
+                background-image: url(main_loc_images/piliyandala.jpg);
+            }
+
+            .card10{
+                background-image: url(main_loc_images/jaffna.jpg);
+            }
+
+            .loch5{
+                color: rgb(255, 255, 255);
+                text-shadow: 0 0 5px #999;
+                
+            }
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+         

@@ -1,0 +1,77 @@
+.contact h1{
+            width: 100%;
+            text-align: center;
+            color: #3FABE1;
+            font-family:arial;
+            font-size: 50px;
+           
+         }
+         .contact{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-top: 50px;
+            background-color: white;
+            height: 120px;            
+         } 
+
+         table{
+            
+            border-collapse: collapse;
+            padding-top: 20px;
+            
+
+         }
+
+         .tdiv th{
+            font-size: 20px;
+            font-family: serif;
+            color: #86C544;
+            margin-left:10px;
+            text-align: left;
+            padding: 10px;
+            
+           
+         }
+
+         .tdiv td{
+            font-size: 17px;
+            font-family: serif;
+            color: black;
+            margin: left;
+            text-align: left;
+            padding: 8px;
+            
+         }
+
+         .tdiv tr{
+            margin-top: 5px;
+            padding-top: 40px;
+         }
+
+         .soci td{
+            font-size: 17px;
+            color: rgb(47, 47, 240);
+         }
+
+         .tdiv{
+            width: 45%;
+            margin-left: 10px;
+            float: left;
+         }
+
+         .mdiv iframe{
+            width: 50%;
+            margin: 20px;
+            float: right;
+            border-radius: 40px;
+         }
+         .contact .tdiv{
+            position: relative;
+            top: 10%;
+         }
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}

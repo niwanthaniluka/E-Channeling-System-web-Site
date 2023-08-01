@@ -1,0 +1,30 @@
+.wrapper .text-box img{
+	width: 500px;
+	float: right;
+}
+.wrapper{
+	width: 100%;
+	position: relative;
+	top: 15%;
+	background-color: #86C544;
+	height: 500px;
+	color: white;
+
+}
+.wrapper .text-box p{
+	padding-top: 20px;
+	padding-left: 50px;
+	font-size: 20px;
+}
+
+.wrapper .text-box h3{
+	padding-top: 170px;
+	padding-left: 50px;
+	font-size: 40px;
+	font-family: arial;
+
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
